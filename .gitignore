@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/venv/
+venv/
+ENV/
+env/
+*.sqlite3
+*.db
+
+# Flutter / Dart
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.packages
+mobile/build/
+mobile/.pub-cache/
+mobile/.pub/
+mobile/.windows_backup/
+*.lock
+
+# Android
+mobile/android/.gradle/
+mobile/android/local.properties
+mobile/android/**/build/
+*.keystore
+!debug.keystore
+
+# Environments & Keys
+.env
+*.env.local
+service-role.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
